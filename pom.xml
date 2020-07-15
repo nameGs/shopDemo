@@ -46,7 +46,7 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.37</version>
+      <version>8.0.16</version>
     </dependency>
     <!-- 下面是spring需要的包，包括必备的core、beans、context、aop，与数据库相关的jdbc、tx，同时aop需要用到aspectjweaver包 -->
     <dependency>
