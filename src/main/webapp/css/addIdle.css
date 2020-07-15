@@ -1,0 +1,22 @@
+.addIdle_div01{
+    width: 100%;
+    background-color: #1eadfb;
+    height: 70px;
+    overflow: hidden;
+}
+.addIdle_div01_font{
+    width: 990px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.addIdle_div02{
+    width: 990px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.addIdle_div02_form{
+    width:300px;
+    font-size: 15px;
+}

@@ -1,0 +1,34 @@
+.body{
+	margin:  0 auto;
+	background-color: #EEE;
+}
+.div01{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+.div02{
+	border-radius: 10px;
+	margin: 0 auto;
+	width: 500px;
+	height: 300px;
+	margin-top: 150px;
+	background-color: rgba(255,255,255,0.5);
+	box-shadow: 0px 0px 10px 1px  #ccc inset;
+}
+.div03{
+	float: left;
+	margin: 0 auto;
+}
+.div04{
+	width: 280px;
+	margin:  0 auto;
+}
+.index{
+	padding-top: 30px;
+	text-align: left;
+	font-size: 20px;
+	margin: 0 auto;
+	width: 280px;
+	height: 50px;
+}

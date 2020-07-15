@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.PublicBenefitMapper">
+    <select id="findPublicBenefit" resultType="publicBenefit">
+        select * from publicbenefit
+    </select>
+    <insert id="addPublicBenefit" parameterType="publicBenefit">
+        insert into publicBenefit(userId,moneyNumber,userName,gender,times,illnessDescribe,needMoney,age,pictureName)
+                values(#{userId},#{moneyNumber},#{userName},#{gender},#{times},#{illnessDescribe},#{needMoney},#{age},#{pictureName})
+    </insert>
+    <select id="getUserId" parameterType="int" resultType="int">
+        select userId from publicbenefit where id=#{id}
+    </select>
+    <update id="getHelp" parameterType="publicBenefit">
+        update publicbenefit set times=times+1,moneyNumber=moneyNumber+#{moneyNumber} where id=#{id}
+    </update>
+    <select id="findPublicBenefitById" parameterType="int" resultType="publicBenefit">
+        select * from publicbenefit where id=#{id}
+    </select>
+
+</mapper>
